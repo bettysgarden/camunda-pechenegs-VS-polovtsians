@@ -82,6 +82,26 @@
       <artifactId>spring-boot-starter-jdbc</artifactId>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.camunda.connect/camunda-connect-core -->
+    <dependency>
+      <groupId>org.camunda.connect</groupId>
+      <artifactId>camunda-connect-core</artifactId>
+      <version>7.23.0-alpha2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.camunda.connect/camunda-connect-connectors-all -->
+    <dependency>
+      <groupId>org.camunda.connect</groupId>
+      <artifactId>camunda-connect-connectors-all</artifactId>
+      <version>7.23.0-alpha2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
 
   <build>

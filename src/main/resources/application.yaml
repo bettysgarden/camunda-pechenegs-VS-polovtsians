@@ -4,4 +4,5 @@ camunda.bpm.admin-user:
   id: admin
   password: admin
 
+url: https://demo.reunico.com/faker/api/generate?property=name.findName&property=name.title&property=random.number&locale=tr
 maxWarriors: 100
